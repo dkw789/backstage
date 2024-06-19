@@ -23,6 +23,10 @@ backend.add(import('@backstage/plugin-auth-backend-module-guest-provider'));
 backend.add(import('@backstage/plugin-auth-backend-module-github-provider'));
 // backend.add(import('@backstage/plugin-auth-backend-module-microsoft-provider'));
 
+// scaffolder
+backend.add(import('@backstage/plugin-scaffolder-backend-module-github'));
+
+
 
 // catalog plugin
 backend.add(import('@backstage/plugin-catalog-backend/alpha'));
